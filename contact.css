@@ -1,0 +1,189 @@
+/*info diver 
+:hover, qui est déclenché au survol de la souris ;
+
+:active, activé au clic de l'utilisateur (le plus souvent pour les liens et boutons) ;
+
+:focus, qui se déclenche lorsque son élément reçoit le focus (soit il est sélectionné à l'aide du clavier, soit il est activé avec la souris) ;
+
+:valid, dont la validation du contenu s'effectue correctement par rapport au type de donnée attendu ;
+
+:invalid, qui inversement, correspond à un élément dont la validation du contenu ne s'effectue pas correctement par rapport au type de donnée attendu ;
+
+:not(), qui correspond à la négation. Elle prend un sélecteur en argument et permet de cibler les éléments qui ne sont pas représentés par cet argument ;
+
+:checked, qui correspond aux input de type checkbox, option ou radio qui sont cochés ;
+
+:enabled, un élément avec lequel on peut interagir ;
+
+:disabled, qui correspond à un élément dont l'interaction a été bloquée*/
+
+
+h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+    color: rgb(245, 245, 244);
+    /*color: #e8490a;*/
+    font-size: 5em;
+    padding-left: 3em;
+    padding-top: 0.5em;
+
+
+}
+
+img[title="logo"]{
+    float: right;
+    width: 4.5em;
+    height: 4.5em;
+    
+    margin-right: 3em;
+  object-fit: cover; /*l'image ne sera pas deformer */ 
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+
+fieldset{
+    padding: 5em;
+    margin: 4.5em;
+    /*border-color: rgb(255, 109, 4);*/
+    border-radius: 25px;
+    border-style:double;
+    /*background: linear-gradient(rgb(251, 178, 43),rgba(251, 90, 32, 0.897));*/
+}
+input{
+    margin:2.5em;
+    padding:0.2em;
+    background-color: rgb(241, 241, 245);
+    border-radius: 7px;
+    /*border: 2px solid black;*/
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+input[type="email"]{
+    /*focus quand l'utilisateur dans le champs 
+    &:focus{
+        border: 2px solid blue;
+    }*/
+    
+
+    &:not(:focus):invalid{ /* c'est une condition quand l'utilasateur n'est pas dans le champs mettre le fond rouge**/
+        background-color: rgb(176, 6, 6);
+        color: aliceblue;
+       
+    }
+}
+label ,legend{
+    font-size: 3em;
+/*
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;*/
+    font-family: "Protest Revolution", serif;
+  font-weight: 400;
+  font-style: normal;
+
+    color: #060606;
+    
+}
+/* je n'est pas mis de balise legen dans fieldest dans le html donc ne sert pas trop a grand chose , pour voir se ce c'est on peut deconmenter 
+legend{
+    text-align: center;
+    color: #c13838;
+}*/
+
+input {
+    border: 2px solid rgba(253, 249, 249, 0.514);
+    border-radius: 20px;
+    background-color: rgb(183, 183, 160);
+    font-size: 1em;
+    padding: 1em;
+    
+}
+
+/*c'est zone de texte du input ce qui ecrit dedabns*/ 
+input::placeholder{
+    color: #f9f4f49d;
+    /*:focus.
+    Elle nous permet de donner un feedback immédiat à l’utilisateur lorsqu’il sélectionne l’input en surlignant le bord de l’input.*/
+
+   
+}
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+  
+   
+   
+}
+.nom{
+    display: flex;
+    
+    align-items: center;
+   flex-direction: row;
+  
+   
+}
+.prenom{
+
+   margin-left: 40px;
+   
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+button {
+   
+    float: right;
+   /* background-color: #43d11bac;*/
+   margin-top: 2em;
+   margin-bottom: 0em;
+   /*
+    background: linear-gradient(rgb(6, 243, 6),rgb(56, 114, 4));*/
+    background: linear-gradient(rgb(84, 179, 1),rgb(71, 222, 6));
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5em;
+
+    /*
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+*/
+font-family: "Protest Revolution", serif;
+  font-weight: 400;
+  font-style: normal;
+
+      text-align: end;
+      padding: 0.5em;
+      transition: transform 200ms, 150ms;
+      &:hover{
+      
+        /*transition: transform 100ms;*/
+        transform: scale(1.5);
+        
+        z-index: 0;
+    
+        
+  }
+  
+  
+ 
+}
+
+
+

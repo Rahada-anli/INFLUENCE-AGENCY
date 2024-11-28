@@ -1,0 +1,225 @@
+h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+    color: rgb(246, 246, 245);
+    /*color: #e8490a;*/
+    font-size: 5em;
+    padding-top: 1em;
+    padding-left: 3em;
+}
+img[title="logo"]{
+    float: right;
+    width: 4.5em;
+    height: 4.5em;
+    
+    margin-right: 3em;
+  object-fit: cover; /*l'image ne sera pas deformer */ 
+  border-radius: 15px;
+  opacity: 0.9;
+}
+.video_box{
+    /*background-color: rgb(143, 193, 193);*/
+    padding: 6em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10em ;
+    width: 10em;
+    height: 17.5em;
+   /* border: 2px solid brown;*/
+    margin-left: 10em;
+}
+
+video {
+    width: 130%; /* il prend la totalite du cadre*/
+    height: 130%;
+    border: 2px double rgba(61, 59, 53, 0.679);
+    background-color: rgb(240, 228, 192);
+    border-radius: 35px;
+    transition: transform 200ms, 150ms;
+
+   
+}
+video[title="influence"],video[title="dejauner"]
+{
+    transition: transform 200ms, 150ms;
+  &:hover{
+  
+    /*transition: transform 100ms;*/
+    transform: scale(1.5);
+    
+    z-index: 0;
+}
+}
+.bande {
+    margin-top: 2em;
+    margin: 8em ;
+    margin-left: 25em;
+    width: 30.55em;
+    height: 17.19em;
+    margin-bottom: 13em;
+    transition: transform 200ms, 150ms;
+
+    &:hover{
+  
+       /* transition: transform 100ms;*/
+        transform: scale(1.5);
+        margin-top: 10em;
+        margin-bottom: 25em;
+        z-index: 0;
+  }
+
+}
+.bande p {
+    font-size: 2em;
+    margin-left: 5em;
+}
+
+img{
+   
+  
+        transition: transform 100ms;
+        &:hover{
+
+        transform: scale(1.4);
+        margin-top: 5em;
+        margin-bottom: 10em;
+        z-index: 0;
+        }
+  
+}
+img[title="pizza"]{ 
+    margin-top: 20em;
+    margin-bottom: 20em;
+    width: 34em;
+    height: 25em;
+    border-radius: 15px;
+    border: 2px double rgba(100, 63, 7, 0.604);
+}
+
+img[title="sushi"]{ 
+    width: 14em;
+    height: 17em;
+    border-radius: 25px;
+    border: 2px double rgb(233, 36, 1);
+    
+}
+img[title="mabawa"]{ 
+    width: 22em;
+    height: 25em;
+    border-radius: 25px;
+    border: 2px double rgba(255, 41, 3, 0.138);
+}
+img[title="burger"]
+{
+    width: 15em;
+    height: 18em;
+    border-radius: 25px;
+    border: 2px double rgba(214, 139, 126, 0.758);
+
+}
+img[title="oeuf"]
+{
+    width: 22em;
+    height: 22em;
+    border-radius: 25px;
+    border: 2px double rgba(170, 163, 161, 0.758);
+}
+
+img[title="marmotte"]
+{
+    width: 14em;
+    height: 16em;
+    border-radius: 25px;
+    border: 2px double rgba(163, 150, 147, 0.758);
+}
+img[title="crepe"]
+{
+    width: 22em;
+    height: 22em;
+    border-radius: 25px;
+    border: 2px double rgba(170, 163, 161, 0.758);
+}
+img[title="chocolat"]
+{
+    width: 22em;
+    height: 22em;
+    border-radius: 25px;
+    border: 2px double rgba(86, 62, 47, 0.758);
+}
+
+
+img[title="poisson"]
+{
+    width: 17em;
+    height: 22em;
+    border-radius: 25px;
+    border: 2px double rgba(217, 213, 208, 0.758);
+}
+img[title="jus"]
+{
+    width: 17em;
+    height: 22em;
+    border-radius: 25px;
+    border: 2px double rgba(240, 237, 236, 0.758);
+}
+
+img[title="fruit"]
+{
+    width: 17em;
+    height: 22em;
+    border-radius: 25px;
+    border: 2px double rgba(119, 255, 0, 0.758);
+}
+/*
+img:hover
+{
+    opacity:0.5 ;
+}
+video:hover {
+    opacity: 0.6;
+}*/
+.pub_photo{
+    padding: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10em ;
+    width: 50em;
+    height: 17em;
+    gap:10em;
+    /*border: 2px solid black;
+    background-color: aqua;
+    overflow:scroll;*/
+
+}
+.pub_photo2 {
+    padding: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10em ;
+    width: 50em;
+    height: 17em;
+    gap:7em;
+    /*border: 2px solid black;
+    background-color: aqua;*/
+
+}
+.pub3{
+    padding: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em ;
+    width: 80em;
+    height: 20em;
+    gap:5em;
+    /*border: 2px solid black;
+    background-color: aqua;*/
+    overflow: scroll;
+    transition: transform 1000ms linear;
+
+}

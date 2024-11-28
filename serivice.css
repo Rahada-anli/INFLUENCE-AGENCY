@@ -1,0 +1,64 @@
+h1{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  color: rgb(246, 244, 244);
+  /*color: #e8490a;*/
+  font-size: 4.5em;
+  padding-left: 3em;
+  padding-top: 0.7em;
+}
+img[title="logo"]{
+  float: right;
+  width: 4.5em;
+  height: 4.5em;
+  
+  margin-right: 3em;
+object-fit: cover; /*l'image ne sera pas deformer */ 
+border-radius: 15px;
+opacity: 0.9;
+
+}
+img[title="contenue"]{
+  padding-bottom: 2em;
+  width: 2.5em;
+  height: 2.5em;
+}
+img[title="pub"]{
+  padding-bottom: 2em;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+img[title="alimentaire"]{
+  padding-bottom: 2em;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+img[title="allier"]{
+ 
+  width: 2.5em;
+  height: 2.5em;
+}
+
+h4{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  color: rgb(255, 77, 0);
+  /*color: #e8490a;*/
+  font-size: 3em;
+  padding-left: 3em;
+  display: flex;
+  flex-direction: row;
+  gap:1em;
+}
+.collab{
+  padding-bottom: 0.5em;
+}
+main {
+  padding-bottom: 5em;
+}
