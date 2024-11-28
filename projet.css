@@ -1,78 +1,94 @@
 h1{
-    font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Luckiest Guy", cursive;
+font-weight: 400;
+font-style: normal;
 
-  color: rgb(246, 246, 245);
-  /*color: #e8490a;*/
-  font-size: 5em;
-  padding-top: 1em;
-  padding-left: 3em;
-  
+color: rgb(246, 246, 245);
+/*color: #e8490a;*/
+font-size: 5em;
+padding-top: 1em;
+padding-left: 3em;
+
 }
 
 img[title="logo"]{
-    float: right;
-    width: 4.5em;
-    height: 4.5em;
-    
-    margin-right: 3em;
-  object-fit: cover; /*l'image ne sera pas deformer */ 
-  border-radius: 15px;
-  opacity: 0.9;
+  float: right;
+  width: 4.5em;
+  height: 4.5em;
+  
+  margin-right: 3em;
+object-fit: cover; /*l'image ne sera pas deformer */ 
+border-radius: 15px;
+opacity: 0.9;
 }
 .appli{
 
-    display: flex;
-    flex-direction: row;
-    margin-top: 5em;
-    gap : 10em ;
-    margin-left: 10em;
-    margin-bottom: 5em;
-    overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+  gap : 10em ;
+  margin-left: 10em;
+  margin-bottom: 5em;
+  overflow: scroll;
 }
 .appli img[title="qrcode"]{
-    margin-top: 5em;
-    width: 15em;
-    height: 15em;
+  margin-top: 5em;
+  width: 15em;
+  height: 15em;
 }
 .appli img[title="eatwell"]
 {
-    width: 60em;
-    height: 35em;
-    border-radius: 30px;
-    
+  width: 60em;
+  height: 35em;
+  border-radius: 30px;
+  
 }
 .appli_qr{
-    margin-left: 20em;
-    margin-bottom: 10em;
+  margin-left: 20em;
+  margin-bottom: 10em;
 }
 .appli_qr p {
-   
-   /* background-color: orangered;*/
-    background: linear-gradient(rgb(255, 0, 0),beige);
-    padding: 1em;
-    font-size: 1.5em;
-    font-weight: 600;
-   /* border: 2px solid rgb(252, 153, 5); */
-    color: aliceblue;
-    border-radius: 35px;
-    width: 7em;/*
-    font-family: "Sour Gummy", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-    */
-    font-family: "Protest Revolution", serif;
-  font-weight: 400;
+ 
+ /* background-color: orangered;*/
+  background: linear-gradient(rgb(255, 0, 0),beige);
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: 600;
+ /* border: 2px solid rgb(252, 153, 5); */
+  color: aliceblue;
+  border-radius: 35px;
+  width: 7em;/*
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
   font-style: normal;
-  &:hover{
-  
-    transition: transform 100ms;
-    transform: scale(1.5);
-    margin-top: 2em;
-    z-index: 0;
-  }
-  
+  font-variation-settings:"wdth" 100;
+  */
+  font-family: "Protest Revolution", serif;
+font-weight: 400;
+font-style: normal;
+&:hover{
+
+  transition: transform 100ms;
+  transform: scale(1.5);
+  margin-top: 2em;
+  z-index: 0;
+}
+
+}
+
+.atelier{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+  gap : 10em ;
+  margin-left: 10em;
+  margin-bottom: 10em;
+  overflow: scroll;
+}
+
+.atelier img[title="cuisine"]{
+  width: 60em;
+  height: 35em;
+  border-radius: 30px;
 }
