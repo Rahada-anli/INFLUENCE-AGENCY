@@ -208,7 +208,7 @@ video:hover {
     background-color: aqua;*/
 
 }
-.pub3{
+.pub3 , .pub4{
     padding: 8em;
     display: flex;
     flex-direction: row;
@@ -218,8 +218,142 @@ video:hover {
     height: 20em;
     gap:5em;
     /*border: 2px solid black;
-    background-color: aqua;*/
+    background-color: aqua;
     overflow: scroll;
-    transition: transform 1000ms linear;
+    transition: transform 1000ms linear;*/
 
 }
+
+@media screen and (max-width : 420px) {
+    h1{
+        font-size: 1em;
+    }
+
+    .bande p {
+        font-size: 0.5em
+    }
+    .bande{
+        margin-top: 3em;
+        width: 8.7em;
+        height: 4.9em;
+        margin-left: 5em;
+        margin-bottom: 1em;
+        /*display: flex;
+        flex-wrap: wrap;*/
+    }
+    .video_box{
+        width: 10em;
+        height: 8em;
+        margin-top: -0.5em;
+        gap:1em;
+        margin-left: -5em;
+     
+
+    }
+    .pub_photo {
+
+        margin-left: 0.5em;
+        width:8em;
+        height: 5em;
+        padding: 0em;
+        margin-bottom: 8em;
+        display: flex;
+        flex-direction: row;
+        gap:1em;
+    }
+    .pub_photo2 , .pub3 , .pub4 {
+        margin-left: 0.5em;
+        width:8em;
+        height: 5em;
+        padding: 0em;
+        margin-bottom: 5em;
+        display: flex;
+        flex-direction: row;
+        gap:1em;
+    }
+
+    
+
+        
+    img[title="pizza"]{ 
+        width: 10em;
+        height: 8em;
+    }
+
+    img[title="sushi"]{ 
+        width: 8em;
+        height: 8em;
+        border-radius: 25px;
+        border: 2px double rgb(233, 36, 1);
+        
+    }
+    img[title="mabawa"]{ 
+        width: 8em;
+        height: 9em;
+        border-radius: 25px;
+        border: 2px double rgba(255, 41, 3, 0.138);
+    }
+    img[title="burger"]
+    {
+        width: 8em;
+        height: 8em;
+        border-radius: 25px;
+        border: 2px double rgba(214, 139, 126, 0.758);
+
+    }
+    img[title="oeuf"]
+    {
+        width: 6em;
+        height: 7em;
+        border-radius: 25px;
+        border: 2px double rgba(170, 163, 161, 0.758);
+    }
+
+    img[title="marmotte"]
+    {
+        width: 6em;
+        height:8em;
+        border-radius: 25px;
+        border: 2px double rgba(163, 150, 147, 0.758);
+    }
+    img[title="crepe"]
+    {
+        width: 8em;
+        height: 8em;
+        border-radius: 25px;
+        border: 2px double rgba(170, 163, 161, 0.758);
+    }
+    img[title="chocolat"]
+    {
+        width: 8em;
+        height: 7em;
+        border-radius: 25px;
+        border: 2px double rgba(86, 62, 47, 0.758);
+    }
+
+    
+
+        img[title="poisson"]
+        {
+            width: 8em;
+            height: 8em;
+            border-radius: 25px;
+            border: 2px double rgba(217, 213, 208, 0.758);
+        }
+        img[title="jus"]
+        {
+            width: 8em;
+            height: 8em;
+            border-radius: 25px;
+            border: 2px double rgba(240, 237, 236, 0.758);
+        }
+
+        img[title="fruit"]
+        {
+            width: 8em;
+            height: 8em;
+            border-radius: 25px;
+            border: 2px double rgba(119, 255, 0, 0.758);
+        }
+}
+

@@ -13,7 +13,7 @@ body{
 
 .color_menu{
 /* background-color: rgb(237, 216, 189);;*/
-background : linear-gradient(rgb(246, 93, 10),rgba(250, 247, 241, 0.918));
+background : linear-gradient(rgb(246, 93, 10),rgba(248, 235, 210, 0.918));
 padding-top: 2em;
 /*border: 2px solid black;*/
 
@@ -23,7 +23,7 @@ padding-top: 2em;
 header
 {
 display: flex;
-justify-content: center;
+justify-content: center; 
  /*border : 2px #0a0ae8 solid;*/
 
  
@@ -39,7 +39,7 @@ border-radius: 25px;
 
 align-items:center;
 padding:10px;
-width: 600px;
+width: 650px;
 padding: 1em;
 
 /*flex-direction: column;
@@ -64,7 +64,7 @@ font-family: "Sour Gummy", sans-serif;
 font-weight: 400;
 font-style: normal;
 padding: 2em;
-  color: #131212;
+  color: #dc7b3f;
   
 
 }
@@ -104,11 +104,25 @@ position: fixed;
 video {
 width: 100%;
 height: 20%;
+opacity: 0.7;
 
 }
 .videobox {
-
 height: 20%;
+}
+
+.para{
+text-align: center;
+margin-top: 4em;
+font-size: 2em;
+color: #2f2822;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.police_influence{
+font-family: "Protest Revolution", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #dc7b3f;
 }
 h2 {
 /*font-family: "Dancing Script", cursive;
@@ -122,8 +136,8 @@ font-optical-sizing: auto;
 font-weight: weight;
 font-style: normal;*/
 
-
-
+margin-top: -1em;
+margin-bottom: -1.5em;
 font-weight: 350;
 font-style: oblique;
 text-align: center;
@@ -152,7 +166,7 @@ font-style: normal;
 
 color: rgb(255, 77, 0);
 /*color: #e8490a;*/
-font-size: 5em;
+font-size: 3.5em;
 padding-left: 3em;
 /* background-color: aliceblue;*/
 
@@ -165,7 +179,8 @@ padding-left: 3em;
 font-size: 1.2em;
 text-decoration : none; 
 color : rgb(37, 30, 17);
-padding:0.5em;
+padding: 0.5em;
+margin: 0.3em;
 
 }
 nav a
@@ -175,14 +190,20 @@ nav a
   font-weight: weight;
   font-style: normal;
   font-variation-settings:"wdth" 100;
-  /*
+  
   font-family: "Parkinsans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;*/
-  font-family: "Protest Revolution", sans-serif;
+  font-style: normal;
+ font-family: "Protest Revolution", sans-serif;*/
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 font-weight: 400;
 font-style: normal;
+/*
+font-family: "Luckiest Guy", cursive;
+font-weight: 400;
+font-style: normal;*/
 /* le z-index c'est comme les clauqe on 1er plan arrie plan le numero indiquer sa position*/ 
 border-radius: 12px ;
 
@@ -198,7 +219,7 @@ transition: transform 200ms, background-color 300ms 150ms; /*pour avoir un effet
 
 &:hover{
  /* transition: transform 400ms ;  /*il produit la meme chose que celle d'haut */  
-  transform: scale(1.5);
+  transform: scale(1.2);
    background-color: rgb(255, 77, 0);
    color: beige;
    z-index: 1;
@@ -360,10 +381,6 @@ font-variation-settings:
   font-weight: 400;
   font-style: normal;
 
-
-
-
-
 }/*
 .prahada{
 
@@ -474,7 +491,7 @@ z-index: 0;
 }
 .equipe p {
 
-background: linear-gradient(rgb(255, 0, 0),rgba(241, 243, 196, 0.907));
+background: linear-gradient(rgb(255, 0, 0),rgba(246, 188, 117, 0.907));
   /*
  background:  rgb(249, 182, 94);*/
   padding: 0.5em;
@@ -487,6 +504,7 @@ background: linear-gradient(rgb(255, 0, 0),rgba(241, 243, 196, 0.907));
 }
 
 .projet{
+margin-top: 3em;
   display: flex;
   flex-direction: row;
  /* background-color: #83756f;*/
@@ -495,7 +513,7 @@ background: linear-gradient(rgb(255, 0, 0),rgba(241, 243, 196, 0.907));
 .projet p {
 text-decoration: none;
 
-margin-top: 4em;
+margin-top: 2em;
 padding: 1em;
 margin-bottom: 8em;
 color: rgb(247, 247, 247);
@@ -507,7 +525,7 @@ font-weight: bold;
 font-weight: 1000;*/
 border-radius: 24px;
 /* border: 2px solid rgb(221, 130, 12);*/
-background: linear-gradient(rgb(255, 0, 0),beige);
+background: linear-gradient(rgb(255, 0, 0),rgb(250, 205, 116));
 font-size: 1.5em;
 /*
 font-family: "Sour Gummy", sans-serif;
@@ -533,7 +551,7 @@ font-variation-settings:
 footer{
 padding: 2em;
 /*background-color: rgb(221, 130, 12);*/
-background : linear-gradient(rgba(250, 247, 241, 0.918),rgb(255, 47, 0));
+background : linear-gradient(rgba(250, 247, 241, 0.918),rgb(255, 94, 0));
 
 padding-bottom: 2em;
 
@@ -570,20 +588,364 @@ pour voir le padding
 padding: 4em;
 background-color: #b65027;*/
 
-
 }
 a {
 text-decoration: none;
 }
-@media screen and(max-width: 420px)
-{
 
-body{
-background-color: aquamarine;
-
+.lien_center{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
 }
 
 
+@media screen and (max-width: 420px)
+{
 
+        
+        body{
+          
+          background-color:rgba(233, 226, 213, 0.918);
+          /*background: linear-gradient(rgba(37, 33, 30, 0.953),rgb(231, 196, 113));
+        */ padding: 0em;
+          margin: 0em;
+        }
+
+
+        .color_menu{
+        /* background-color: rgb(237, 216, 189);;*/
+        background : linear-gradient(rgb(246, 93, 10),rgba(248, 235, 210, 0.918));
+        padding-top: 2em;
+        /*border: 2px solid black;*/
+
+        }
+        img[title="logo"]{
+          
+        display: none;
+        }
+
+        .menu{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          background-color: rgba(239, 236, 229, 0.733) ;
+          backdrop-filter: blur(10px);  /* la couelur du flou */ 
+          border-radius: 25px;
+          
+          align-items:center;
+          padding:10px;
+          width:230px;
+        
+          position:fixed; /*sa fixe le trux meme quand on se deplce il reste toujour au meme endroit*/
+          top: 20px; /* pour qu'il soit en haut */
+          align-items:center;
+          position:fixed; /*sa fixe le trux meme quand on se deplce il reste toujour au meme endroit*/
+          top: 20px; /* pour qu'il soit en haut */
+          z-index: 1;
+
+          
+        }
+        .para{
+          text-align: center;
+          margin-top: 4em;
+          font-size: 0.5em;
+          color: #2f2822;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        .police_influence{
+          font-family: "Protest Revolution", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          color: #dc7b3f;
+        }
+        h2{
+          font-size: 1em;
+        }
+        h3{
+          font-size: 1em;
+        }
+        .crea{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+  nav a
+  {    
+      font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* le z-index c'est comme les clauqe on 1er plan arrie plan le numero indiquer sa position*/ 
+    border-radius: 12px ;
+    transition: transform 200ms, background-color 300ms 150ms; /*pour avoir un effet quand on sort du survol */ 
+
+    &:hover{
+    /* transition: transform 400ms ;  /*il produit la meme chose que celle d'haut */  
+      transform: scale(1.2);
+      background-color: rgb(255, 77, 0);
+      color: beige;
+      z-index: 1;
+    }
+    
+  }
+  .non_s{
+    font-size: 0.5em;
+    text-decoration : none; 
+    color : rgb(37, 30, 17);
+    padding: 0.5em;
+   margin: 0.3em;
+  
+  }
+  .crea {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin-left: 2em;
+  }
+  .crea p {
+    /*background-color: aqua;*/
+    border: 2px solid rgb(238, 206, 192);;
+    margin-right: 10em;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.5em;
+    padding: 0.5em;
+    color: #131212;
+    
+  }
+  .crea img{
+    width: 7em ;
+    height: 8em;
+    border: 1px solid rgba(250, 248, 247, 0.9);
+    transition: transform 200ms, 150ms;
+    &:hover{
+    
+    /* transition: transform 100ms;*/
+      transform: scale(1);
+      margin-bottom: 1.5em;
+      margin-top: 1.5em;
+      
+      z-index: 0;
+    }
+  }
+      
+  img[alt="fleche"]{
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    
+    background-color: rgb(255, 77, 0);;
+    
+  border: 2px solid rgba(245, 241, 241, 0.088);
+    border-radius: 15px;
+    
+    transition: transform 200ms, 150ms;
+    &:hover{
+    
+      /*transition: transform 100ms;*/
+      transform: scale(1.5);
+      
+      z-index: 0;
+  }
+  }
+      
+  .box_sec{
+
+    /* background-color: #e3d0c8;
+    border: 2px solid rgba(228, 129, 7, 0.734);*/
+    border-radius: 12px;
+  
+    margin-left: 3em;
+    width: 300px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .box_1 , .box_2, .box_3 , .box_4{
+    border-radius: 25px;
+    
+    background-color: rgb(255, 0, 0);
+    padding: 2em;
+    margin: 0.5em;
+    font-size: 1em;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fbfaf9;
+    
+    transition: transform 200ms, 150ms;
+  
+    &:hover{
+    
+      /*transition: transform 200ms;*/
+      transform: scale(1.2);
+      margin: 1em;
+      
+      z-index: 0;
+  }
+    
+  }
+
+      
+  .equipe{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em; /*sa met des espace entre les element dans le flex */
+    
+  }
+        
+    img[title="Rahada"] {
+      /*border: 2px solid  black;*/
+      border-radius: 130px; /*99% 1% 78% 22% / 37% 51% 49% 63% ;
+    /*  border: 2px solid orangered;*/
+      height: 10em;
+      display: inline;
+      
+    }
+
+    img[title="Manon"] {
+      /*border: 2px solid  black;*/
+      border-radius: 130px;
+      height: 10em;
+      display: inline;
+
+    }
+
+
+    img[title="Sarah"] {
+      /*border: 2px solid  black;*/
+      border-radius: 130px;
+      height: 10em;
+      display: inline;
+    
+
+    }
+    img[title="Loann"] {
+      
+      border-radius: 110px;
+      height: 10em;
+      display: inline;
+      
+    
+
+    }
+    .manon{
+
+      
+      transition: transform 200ms, 150ms;
+      &:hover{
+      
+      transition: transform 400ms;
+      transform: scale(1.5);
+      padding-bottom: 4em;
+      z-index: 1;
+      }
+
+    }
+    .rahada{
+
+      transition: transform 200ms, 150ms;
+      &:hover{
+      transition: transform 400ms;
+      transform: scale(1.5);
+      padding-bottom: 4em;
+      z-index: 0;
+      }
+      
+    }
+    .sarah{
+      transition: transform 200ms, 150ms;
+      &:hover{
+      
+      transition: transform 400ms;
+      transform: scale(1.5);
+      padding-bottom: 4em;
+      z-index: 0;
+      }
+
+    }
+    .loann{
+      transition: transform 200ms, 150ms;
+      &:hover{
+      
+      transition: transform 400ms;
+      transform: scale(1.5);
+      padding-bottom: 4em;
+      z-index: 0;
+      }
+
+    }
+    .equipe p {
+      
+      background: linear-gradient(rgb(255, 0, 0),rgba(246, 188, 117, 0.907));
+        /*
+      background:  rgb(249, 182, 94);*/
+        padding: 0.5em;
+        font-size: 1em;
+        font-weight: 600;
+      /* border: 2px solid rgb(252, 153, 5); */
+        color: rgb(255, 252, 252);
+        border-radius: 15px;
+      
+    }
+        
+        
+  .projet{
+    display: flex;
+    flex-direction: row;
+  /* background-color: #83756f;*/
+    gap: 5em ;
+    
+  margin-top: 1em;
+  }
+  .projet p {
+
+  padding: 1em;
+  
+  margin-top: 1em;
+  margin-bottom: 4em;
+  color: rgb(247, 247, 247);
+  border-radius: 24px;
+  /* border: 2px solid rgb(221, 130, 12);*/
+  background: linear-gradient(rgb(255, 0, 0),rgb(250, 205, 116));
+  font-size: 0.5em;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition: transform 200ms, 150ms;
+  &:hover{
+
+    /*transition: transform 100ms;*/
+    transform: scale(1.5);
+    
+    z-index: 0;
+  }
+  }
+      
+  footer a img{
+
+    height: 1.5em;
+    width: 1.5em;
+    margin:1.5em;
+    /*
+    pour voir le padding
+    padding: 4em;
+    background-color: #b65027;*/
+    
+  }
+  footer div p {
+    font-size: 0.9em;
+  }
+  footer p {
+    font-size: 0.9em;
+  }
 
 }

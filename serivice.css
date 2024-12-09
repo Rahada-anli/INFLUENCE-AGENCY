@@ -62,3 +62,13 @@ h4{
 main {
   padding-bottom: 5em;
 }
+
+
+@media screen and (max-width : 420px ) {
+  h1,h4{
+    margin-top: 2em;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+}
