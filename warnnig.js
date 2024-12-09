@@ -1,0 +1,1 @@
+alert("Ce site peut contenir des effets très Lumineux! ATTENTION ! ");
