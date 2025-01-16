@@ -19,10 +19,9 @@
 
 
 h1{
-    font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
-  
+    font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
     color: rgb(245, 245, 244);
     /*color: #e8490a;*/
     font-size: 5em;
@@ -37,7 +36,7 @@ img[title="logo"]{
     width: 4.5em;
     height: 4.5em;
     
-    margin-right: 3em;
+    margin-left: 2em;
   object-fit: cover; /*l'image ne sera pas deformer */ 
   border-radius: 15px;
   opacity: 0.9;
@@ -74,6 +73,9 @@ input[type="email"]{
         color: aliceblue;
        
     }
+    &:not(:focus):placeholder-shown{
+        background-color: rgb(183, 183, 160);
+    }
 }
 label ,legend{
     font-size: 3em;
@@ -82,12 +84,17 @@ label ,legend{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    font-variation-settings:"wdth" 100;*/
+    font-variation-settings:"wdth" 100;
     font-family: "Protest Revolution", serif;
   font-weight: 400;
+  font-style: normal;*/
+  
+  font-family: "Kranky", serif;
+  font-weight: 400;
   font-style: normal;
+  color: #fbfaf9;
+  
 
-    color: #060606;
     
 }
 /* je n'est pas mis de balise legen dans fieldest dans le html donc ne sert pas trop a grand chose , pour voir se ce c'est on peut deconmenter 
@@ -97,7 +104,7 @@ legend{
 }*/
 
 input {
-    border: 2px solid rgba(253, 249, 249, 0.514);
+    border: 2px solid rgba(254, 250, 250, 0.581);
     border-radius: 20px;
     background-color: rgb(183, 183, 160);
     font-size: 1em;
@@ -163,10 +170,15 @@ button {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-*/
-font-family: "Protest Revolution", serif;
+
+    font-family: "Protest Revolution", serif;
+  font-weight: 400;
+  font-style: normal;*/
+   
+  font-family: "Kranky", serif;
   font-weight: 400;
   font-style: normal;
+  color: #fbfaf9;
 
       text-align: end;
       padding: 0.5em;
@@ -185,5 +197,229 @@ font-family: "Protest Revolution", serif;
  
 }
 
+
+@media screen and (max-width: 435px)
+{
+
+    
+    h1{
+        font-size: 1em;
+        margin: 2em;
+    }
+
+
+    label{
+        font-size: 1em;
+    }
+        
+    fieldset{
+  
+        padding: 2em;
+        margin: 2.5em;
+        /*border-color: rgb(255, 109, 4);*/
+        border-radius: 25px;
+ 
+  }
+    input{
+        margin:2.5em;
+        padding:0.2em;
+        border-radius: 7px;
+        font-size: 0.5em;
+        /*border: 2px solid black;*/
+        font-family: 'Montserrat', sans-serif;
+
+        
+    }
+            
+        .nom{
+            display: flex;
+        
+            align-items: center;
+            flex-direction: column;
+        
+        
+        }
+        .prenom{
+
+        margin-left: 40px;
+        
+        }
+
+        .mail{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+            
+        button {
+        
+            font-size: 1.2em;
+            margin-top: 2em;
+            margin-bottom: 0em;
+        
+            border-radius: 10px;
+            padding: 0.5em;
+            &:hover{
+            
+            display: none;
+                
+            }
+        
+        }
+        
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+
+
+    h1{
+        margin-left: -1em;
+        margin-bottom: -2em;
+    }
+    img[title="logo"]{
+          
+        display: none;
+    }
+
+    label{
+        font-size: 4em;
+    }
+        
+    fieldset{
+  
+        padding: 1em;
+        margin: 15em;
+        /*border-color: rgb(255, 109, 4);*/
+        border-radius: 25px;
+ 
+  }
+    input{
+        margin:2.5em;
+        padding:0.2em;
+        border-radius: 7px;
+        font-size: 2em;
+        /*border: 2px solid black;*/
+        font-family: 'Montserrat', sans-serif;
+
+        
+    }
+            
+        .nom{
+            display: flex;
+            
+            align-items: center;
+            flex-direction: column;
+        
+        
+        }
+        .prenom{
+
+        margin-left: 40px;
+        
+        }
+
+        .mail{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+            
+        button {
+        
+            font-size: 1.2em;
+            margin-top: 2em;
+            margin-bottom: 0em;
+        
+            border-radius: 10px;
+            padding: 0.5em;
+            &:hover{
+            
+            display: none;
+                
+            }
+        
+        }
+
+}
+
+
+
+@media screen and (min-width: 1023px) and (max-width: 1288px){
+
+    
+        h1{
+            
+            margin-bottom: -2em;
+        
+    }
+    img[title="logo"]{
+          
+        display: none;
+    }
+
+    label{
+        font-size: 4em;
+    }
+        
+    fieldset{
+  
+        padding: 1em;
+        margin: 15em;
+        /*border-color: rgb(255, 109, 4);*/
+        border-radius: 25px;
+ 
+  }
+    input{
+        margin:2.5em;
+        padding:0.2em;
+        border-radius: 7px;
+        font-size: 2em;
+        /*border: 2px solid black;*/
+        font-family: 'Montserrat', sans-serif;
+
+        
+    }
+            
+        .nom{
+            display: flex;
+            
+            align-items: center;
+            flex-direction: column;
+        
+        
+        }
+        .prenom{
+
+        margin-left: 40px;
+        
+        }
+
+        .mail{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+            
+        button {
+        
+            font-size: 1.2em;
+            margin-top: 2em;
+            margin-bottom: 0em;
+        
+            border-radius: 10px;
+            padding: 0.5em;
+            &:hover{
+            
+            display: none;
+                
+            }
+        
+        }
+
+}
 
 

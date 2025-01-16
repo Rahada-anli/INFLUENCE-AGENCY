@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(#e7e5df, #e3dcd9,#5e4137);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+img[title="logo"]{
+    width: 5em;
+    height: 5em;
+    object-fit: cover; /*l'image ne sera pas deformer */ 
+    border-radius: 15px;
+   /* filter: blur(0px);*/
+   opacity: 0.98;
+   position: fixed;
+   margin-top: -3em;
+   background-color: #ede8e8;
+   
+   
+  }
+h1{
+    color: rgb(70, 66, 66);
+    text-align: center;
+    margin: 2em;
+}
+
+h2{
+    color: black;
+}
+h3{
+    color: rgb(27, 26, 26);
+    text-align: center; 
+}
+
+p,li{
+    color: black;
+}
+
+.politique{
+    margin: 2em;
+}
