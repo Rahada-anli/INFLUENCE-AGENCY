@@ -867,7 +867,7 @@ p,h2,h3{
           .para{
            
             margin-top: 4em;
-            font-size: 0.5em;
+            font-size: 1.5em;
              }
           .police_influence{
             font-size: 0.5em;
@@ -876,7 +876,7 @@ p,h2,h3{
             font-size: 1em;
           }
           h3{
-            font-size: 1em;
+            font-size: 1.3em;
           }
           .crea{
             display: flex;
