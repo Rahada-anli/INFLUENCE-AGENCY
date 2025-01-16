@@ -254,13 +254,19 @@ video:hover {
   
     } 
   }
-@media screen and (max-width : 435px) {
+
+
+
+
+  @media screen and (max-width : 435px) {
 
     
 
     h1{
         margin: 2em;
-        font-size: 1em;
+        margin-left: -2em;
+        margin-bottom: -1em;
+        font-size: 2em;
     }
 
     .bande p {
@@ -322,29 +328,28 @@ video:hover {
         width: 8.5em;
         height: 9.5em;
         border-radius: 5px;
-        border: 2px double rgb(233, 36, 1);
+      
         
     }
     img[title="mabawa"]{ 
         width: 8em;
         height: 9em;
         border-radius: 5px;
-        border: 2px double rgba(255, 41, 3, 0.138);
+      
     }
     img[title="burger"]
     {
         width: 8em;
         height: 8em;
         border-radius: 5px;
-        border: 2px double rgba(214, 139, 126, 0.758);
-
+        
     }
     img[title="oeuf"]
     {
         width: 6em;
         height: 7em;
         border-radius: 5px;
-        border: 2px double rgba(170, 163, 161, 0.758);
+        
     }
 
     img[title="marmotte"]
@@ -352,38 +357,35 @@ video:hover {
         width: 6em;
         height:8em;
         border-radius: 5px;
-        border: 2px double rgba(163, 150, 147, 0.758);
     }
     img[title="crepe"]
     {
-        width: 8em;
+        width: 7em;
         height: 8em;
         border-radius: 5px;
-        border: 2px double rgba(170, 163, 161, 0.758);
     }
     img[title="chocolat"]
     {
-        width: 8em;
+        width: 6em;
         height: 7em;
         border-radius: 5px;
-        border: 2px double rgba(86, 62, 47, 0.758);
     }
 
     
 
-        img[title="poisson"]
+    img[title="poisson"]
         {
-            width: 8em;
+            width: 5em;
             height: 8em;
             border-radius: 5px;
-            border: 2px double rgba(217, 213, 208, 0.758);
+            
         }
         img[title="jus"]
         {
             width: 8em;
             height: 8em;
             border-radius: 5px;
-            border: 2px double rgba(240, 237, 236, 0.758);
+            
         }
 
         img[title="fruit"]
@@ -391,7 +393,7 @@ video:hover {
             width: 8em;
             height: 8em;
             border-radius: 5px;
-            border: 2px double rgba(119, 255, 0, 0.758);
+            
         }
 
                 

@@ -576,7 +576,7 @@ img[title="Loann"] {
   
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: -1em;
+  margin-top: -8em;
   gap : 10em ;
   margin-left: 20em;
   margin-bottom: 5em;
@@ -605,6 +605,7 @@ img[title="Loann"] {
 
 .histoire{
   margin-top: 5em;
+  margin-bottom: 2em;
 }
 .pp {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -829,18 +830,10 @@ p,h2,h3{
 
           
   
-          body{
-            
-            background-color:rgba(233, 226, 213, 0.918);
-            /*background: linear-gradient(rgba(37, 33, 30, 0.953),rgb(231, 196, 113));
-          */ padding: 0em;
-            margin: 0em;
-          }
 
 
           .color_menu{
           /* background-color: rgb(237, 216, 189);;*/
-          background : linear-gradient(rgb(246, 93, 10),rgba(248, 235, 210, 0.918));
           padding-top: 2em;
           /*border: 2px solid black;*/
 
@@ -921,23 +914,16 @@ p,h2,h3{
       flex-direction: row;
       gap: 3em;
       margin-left: 2em;
+
+      p{
+        font-size: 0.7em;
+      }
     }
-    .crea p {
-      /*background-color: aqua;*/
-      border: 2px solid rgb(238, 206, 192);;
-      margin-right: 10em;
-      font-family: "Protest Revolution", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 0.5em;
-      padding: 0.5em;
-      color: #131212;
-      
-    }
+   
     .crea img{
       width: 7em ;
       height: 8em;
-      border: 1px solid rgba(250, 248, 247, 0.9);
+      
       transition: transform 200ms, 150ms;
       &:hover{
       display: none;
@@ -958,6 +944,12 @@ p,h2,h3{
       
           display: none;
     } 
+    }
+
+    .histoire{
+      font-size: 0.8em;
+      margin-bottom: 4em;
+  
     }
         
     .box_sec{
@@ -1084,6 +1076,13 @@ p,h2,h3{
     z-index: 0;
     }
   }
+
+  
+.ecrit{
+  margin-top: 1em;
+  
+  font-size: 1em;
+}
 
 
     
@@ -1239,7 +1238,11 @@ p,h2,h3{
 
 
     
-
+    .histoire{
+      
+      margin-bottom: 4em;
+  
+    }
    
       
     .equip {
@@ -1355,7 +1358,7 @@ p,h2,h3{
     &:hover{
     /* transition: transform 400ms ;  /*il produit la meme chose que celle d'haut */  
     transform: scale(1.2);
-    background-color: rgb(255, 77, 0);
+    
     color: beige;
     z-index: 1;
     }
@@ -1377,21 +1380,15 @@ p,h2,h3{
     margin-left: 2em;
     }
     .crea p {
-    /*background-color: aqua;*/
-    border: 2px solid rgb(238, 206, 192);;
-    margin-right: 10em;
-    font-family: "Protest Revolution", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+   
     font-size: 1em;
     padding: 0.5em;
-    color: #131212;
+    
 
     }
     .crea img{
     width: 7em ;
     height: 8em;
-    border: 1px solid rgba(250, 248, 247, 0.9);
     transition: transform 200ms, 150ms;
     &:hover{
     display: none;
@@ -1403,9 +1400,6 @@ p,h2,h3{
     height: 2em;
     object-fit: cover;
 
-    background-color: rgb(255, 77, 0);;
-
-    border: 2px solid rgba(245, 241, 241, 0.088);
     border-radius: 15px;
 
     &:hover{
@@ -1431,7 +1425,6 @@ p,h2,h3{
     .box_1 , .box_2, .box_3 , .box_4{
     border-radius: 25px;
 
-    background-color: rgb(255, 0, 0);
     padding: 2em;
     margin: 0.5em;
     font-size: 1em;
@@ -1445,6 +1438,13 @@ p,h2,h3{
 
     }
 
+    }
+
+    
+    .histoire{
+      
+      margin-bottom: 4em;
+  
     }
 
       
@@ -1517,3 +1517,5 @@ p,h2,h3{
 
 
 }
+
+

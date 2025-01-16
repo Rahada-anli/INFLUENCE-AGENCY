@@ -86,13 +86,17 @@ h4 {
 
   } 
 }
+
+
 @media screen and (max-width : 435px ) {
   h1{
     margin-bottom: -5em;
+    margin-left: -2em;
+    font-size: 2em;
   }
-    h1,h4{
+  h4{
       margin-top: 2em;
-      font-size: 1em;
+      font-size: 1.5em;
       padding: 1em;
     }
   
